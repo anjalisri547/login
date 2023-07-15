@@ -1,0 +1,68 @@
+body{
+    background-image:  url('mm.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background-color: crimson;
+}
+ul{
+    float: right;
+    margin: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid rgb(58, 52, 52);
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: cyan;
+    color: darkmagenta;
+}
+ul li.active a{
+    background-color: cyan;
+    color: darkmagenta;
+}
+.logo img{
+    float: left;
+    height: auto;
+    width: 70px;
+}
+.title{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: #fff;
+    font-size: 40px;
+    font-style: italic;
+}
+.button{
+    position: absolute;
+    text-align: center;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: blue;
+}
